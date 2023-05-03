@@ -1,0 +1,78 @@
+[
+  {
+    "id": 1,
+    "name": "Account 1",
+    "contacts": [
+      {
+        "id": 100,
+        "name": "Contact A",
+        "mutual": true,
+        "chats": [
+          {
+            "id": 1000,
+            "title": "Chat A1",
+            "participants": 4
+          },
+          {
+            "id": 1001,
+            "title": "Chat A2",
+            "participants": 2
+          }
+        ]
+      },
+      {
+        "id": 101,
+        "name": "Contact B",
+        "mutual": false,
+        "chats": [
+          {
+            "id": 1002,
+            "title": "Chat B1",
+            "participants": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Account 2",
+    "contacts": [
+      {
+        "id": 102,
+        "name": "Contact C",
+        "mutual": true,
+        "chats": [
+          {
+            "id": 1003,
+            "title": "Chat C1",
+            "participants": 3
+          },
+          {
+            "id": 1004,
+            "title": "Chat C2",
+            "participants": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Account 3",
+    "contacts": [
+      {
+        "id": 103,
+        "name": "Contact D",
+        "mutual": false,
+        "chats": [
+          {
+            "id": 1005,
+            "title": "Chat D1",
+            "participants": 2
+          }
+        ]
+      }
+    ]
+  }
+]
